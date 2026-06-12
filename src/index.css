@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0b0b0d;
+  --color-panel-light: #232327;
+  --color-panel-dark: #161619;
+  --color-text-primary: #e8e8ec;
+  --color-text-secondary: #a0a0a8;
+  --color-accent: #4a9eff;
+  --color-accent-hover: #3b82f6;
+  --color-border: #2c2c30;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary font-sans antialiased m-0 min-h-screen selection:bg-accent/30 selection:text-white;
+  }
+}
+
+/* Base resets — must live in @layer base so utility classes (e.g. text-white
+   on buttons) can override them; un-layered rules beat all Tailwind layers. */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text-primary font-medium tracking-tight;
+  }
+
+  p {
+    @apply text-text-secondary leading-relaxed;
+  }
+
+  a {
+    @apply text-accent hover:text-accent-hover transition-colors;
+  }
+}
