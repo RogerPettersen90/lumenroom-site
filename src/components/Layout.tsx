@@ -63,12 +63,6 @@ const Layout = () => {
             <span className="text-text-secondary">Open Source (GPLv3)</span>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto px-6 mt-6">
-          <p className="text-xs text-text-secondary/70 text-center md:text-left">
-            Adobe and Lightroom are registered trademarks of Adobe Inc. LumenRoom
-            is an independent project, not affiliated with or endorsed by Adobe Inc.
-          </p>
-        </div>
       </footer>
     </div>
   );

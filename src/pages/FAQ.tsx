@@ -12,8 +12,8 @@ const faqs = [
     a: "Never. All edits are non-destructive, stored in a SQLite catalog and XMP sidecars. Your original RAW files are never modified."
   },
   {
-    q: "Does it work with Adobe® Lightroom®?",
-    a: "Yes, it reads and writes XMP sidecars using standard crs: fields for interoperability."
+    q: "Does it work with other photo editors?",
+    a: "Yes, it reads and writes XMP sidecars using standard crs: fields, so your edits are portable across editors that support them."
   },
   {
     q: "Which RAW formats are supported?",

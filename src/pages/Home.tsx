@@ -197,7 +197,7 @@ const Home = () => {
           <div className="p-6 bg-bg-primary border border-border rounded-lg">
             <FileJson className="w-8 h-8 text-text-primary mb-4" />
             <h3 className="text-lg font-medium mb-2">Export anything</h3>
-            <p className="text-sm text-text-secondary">JPEG, PNG, TIFF, or original. sRGB/AdobeRGB with embedded ICC. Resize, sharpen, watermark, or auto-sync via publish-to-folder.</p>
+            <p className="text-sm text-text-secondary">JPEG, PNG, TIFF, or original. sRGB or wide-gamut with embedded ICC. Resize, sharpen, watermark, or auto-sync via publish-to-folder.</p>
           </div>
           <div className="p-6 bg-bg-primary border border-border rounded-lg">
             <ImageIcon className="w-8 h-8 text-text-primary mb-4" />
